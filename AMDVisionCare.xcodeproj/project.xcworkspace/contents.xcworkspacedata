@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:amslerGrid.xcodeproj">
+      location = "self:/Users/admin/Documents/amslerGrid/AMDVisionCare.xcodeproj">
    </FileRef>
 </Workspace>

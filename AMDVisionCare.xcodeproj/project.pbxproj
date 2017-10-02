@@ -13,6 +13,7 @@
 		84722E621F818A5700FA0E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84722E611F818A5700FA0E6D /* Assets.xcassets */; };
 		84722E701F818A5800FA0E6D /* amslerGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84722E6F1F818A5800FA0E6D /* amslerGridTests.swift */; };
 		84722E7B1F818A5800FA0E6D /* amslerGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84722E7A1F818A5800FA0E6D /* amslerGridUITests.swift */; };
+		84722E891F82661D00FA0E6D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84722E881F82661D00FA0E6D /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +34,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84722E541F818A5700FA0E6D /* amslerGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amslerGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84722E541F818A5700FA0E6D /* AMDVisionCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMDVisionCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84722E571F818A5700FA0E6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84722E591F818A5700FA0E6D /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		84722E5F1F818A5700FA0E6D /* amslerGrid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = amslerGrid.xcdatamodel; sourceTree = "<group>"; };
 		84722E611F818A5700FA0E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84722E661F818A5700FA0E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84722E6B1F818A5800FA0E6D /* amslerGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amslerGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84722E6B1F818A5800FA0E6D /* AMDVisionCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMDVisionCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84722E6F1F818A5800FA0E6D /* amslerGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amslerGridTests.swift; sourceTree = "<group>"; };
 		84722E711F818A5800FA0E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84722E761F818A5800FA0E6D /* amslerGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amslerGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84722E761F818A5800FA0E6D /* AMDVisionCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMDVisionCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84722E7A1F818A5800FA0E6D /* amslerGridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amslerGridUITests.swift; sourceTree = "<group>"; };
 		84722E7C1F818A5800FA0E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84722E881F82661D00FA0E6D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +87,9 @@
 		84722E551F818A5700FA0E6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84722E541F818A5700FA0E6D /* amslerGrid.app */,
-				84722E6B1F818A5800FA0E6D /* amslerGridTests.xctest */,
-				84722E761F818A5800FA0E6D /* amslerGridUITests.xctest */,
+				84722E541F818A5700FA0E6D /* AMDVisionCare.app */,
+				84722E6B1F818A5800FA0E6D /* AMDVisionCareTests.xctest */,
+				84722E761F818A5800FA0E6D /* AMDVisionCareUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +99,7 @@
 			children = (
 				84722E571F818A5700FA0E6D /* AppDelegate.swift */,
 				84722E591F818A5700FA0E6D /* GridViewController.swift */,
+				84722E881F82661D00FA0E6D /* Launch Screen.storyboard */,
 				84722E611F818A5700FA0E6D /* Assets.xcassets */,
 				84722E661F818A5700FA0E6D /* Info.plist */,
 				84722E5E1F818A5700FA0E6D /* amslerGrid.xcdatamodeld */,
@@ -125,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84722E531F818A5700FA0E6D /* amslerGrid */ = {
+		84722E531F818A5700FA0E6D /* AMDVisionCare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84722E7F1F818A5800FA0E6D /* Build configuration list for PBXNativeTarget "amslerGrid" */;
+			buildConfigurationList = 84722E7F1F818A5800FA0E6D /* Build configuration list for PBXNativeTarget "AMDVisionCare" */;
 			buildPhases = (
 				84722E501F818A5700FA0E6D /* Sources */,
 				84722E511F818A5700FA0E6D /* Frameworks */,
@@ -137,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = amslerGrid;
+			name = AMDVisionCare;
 			productName = amslerGrid;
-			productReference = 84722E541F818A5700FA0E6D /* amslerGrid.app */;
+			productReference = 84722E541F818A5700FA0E6D /* AMDVisionCare.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84722E6A1F818A5800FA0E6D /* amslerGridTests */ = {
+		84722E6A1F818A5800FA0E6D /* AMDVisionCareTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84722E821F818A5800FA0E6D /* Build configuration list for PBXNativeTarget "amslerGridTests" */;
+			buildConfigurationList = 84722E821F818A5800FA0E6D /* Build configuration list for PBXNativeTarget "AMDVisionCareTests" */;
 			buildPhases = (
 				84722E671F818A5800FA0E6D /* Sources */,
 				84722E681F818A5800FA0E6D /* Frameworks */,
@@ -155,14 +158,14 @@
 			dependencies = (
 				84722E6D1F818A5800FA0E6D /* PBXTargetDependency */,
 			);
-			name = amslerGridTests;
+			name = AMDVisionCareTests;
 			productName = amslerGridTests;
-			productReference = 84722E6B1F818A5800FA0E6D /* amslerGridTests.xctest */;
+			productReference = 84722E6B1F818A5800FA0E6D /* AMDVisionCareTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84722E751F818A5800FA0E6D /* amslerGridUITests */ = {
+		84722E751F818A5800FA0E6D /* AMDVisionCareUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84722E851F818A5800FA0E6D /* Build configuration list for PBXNativeTarget "amslerGridUITests" */;
+			buildConfigurationList = 84722E851F818A5800FA0E6D /* Build configuration list for PBXNativeTarget "AMDVisionCareUITests" */;
 			buildPhases = (
 				84722E721F818A5800FA0E6D /* Sources */,
 				84722E731F818A5800FA0E6D /* Frameworks */,
@@ -173,9 +176,9 @@
 			dependencies = (
 				84722E781F818A5800FA0E6D /* PBXTargetDependency */,
 			);
-			name = amslerGridUITests;
+			name = AMDVisionCareUITests;
 			productName = amslerGridUITests;
-			productReference = 84722E761F818A5800FA0E6D /* amslerGridUITests.xctest */;
+			productReference = 84722E761F818A5800FA0E6D /* AMDVisionCareUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84722E4F1F818A5700FA0E6D /* Build configuration list for PBXProject "amslerGrid" */;
+			buildConfigurationList = 84722E4F1F818A5700FA0E6D /* Build configuration list for PBXProject "AMDVisionCare" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84722E531F818A5700FA0E6D /* amslerGrid */,
-				84722E6A1F818A5800FA0E6D /* amslerGridTests */,
-				84722E751F818A5800FA0E6D /* amslerGridUITests */,
+				84722E531F818A5700FA0E6D /* AMDVisionCare */,
+				84722E6A1F818A5800FA0E6D /* AMDVisionCareTests */,
+				84722E751F818A5800FA0E6D /* AMDVisionCareUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84722E891F82661D00FA0E6D /* Launch Screen.storyboard in Resources */,
 				84722E621F818A5700FA0E6D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		84722E6D1F818A5800FA0E6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84722E531F818A5700FA0E6D /* amslerGrid */;
+			target = 84722E531F818A5700FA0E6D /* AMDVisionCare */;
 			targetProxy = 84722E6C1F818A5800FA0E6D /* PBXContainerItemProxy */;
 		};
 		84722E781F818A5800FA0E6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84722E531F818A5700FA0E6D /* amslerGrid */;
+			target = 84722E531F818A5700FA0E6D /* AMDVisionCare */;
 			targetProxy = 84722E771F818A5800FA0E6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,7 +413,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ilyas.amslerGrid;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AMDVisionCare;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -425,7 +429,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ilyas.amslerGrid;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AMDVisionCare;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,7 +447,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amslerGrid.app/amslerGrid";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMDVisionCare.app/AMDVisionCare";
 			};
 			name = Debug;
 		};
@@ -459,7 +463,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amslerGrid.app/amslerGrid";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMDVisionCare.app/AMDVisionCare";
 			};
 			name = Release;
 		};
@@ -496,7 +500,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84722E4F1F818A5700FA0E6D /* Build configuration list for PBXProject "amslerGrid" */ = {
+		84722E4F1F818A5700FA0E6D /* Build configuration list for PBXProject "AMDVisionCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84722E7D1F818A5800FA0E6D /* Debug */,
@@ -505,7 +509,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84722E7F1F818A5800FA0E6D /* Build configuration list for PBXNativeTarget "amslerGrid" */ = {
+		84722E7F1F818A5800FA0E6D /* Build configuration list for PBXNativeTarget "AMDVisionCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84722E801F818A5800FA0E6D /* Debug */,
@@ -514,7 +518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84722E821F818A5800FA0E6D /* Build configuration list for PBXNativeTarget "amslerGridTests" */ = {
+		84722E821F818A5800FA0E6D /* Build configuration list for PBXNativeTarget "AMDVisionCareTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84722E831F818A5800FA0E6D /* Debug */,
@@ -523,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84722E851F818A5800FA0E6D /* Build configuration list for PBXNativeTarget "amslerGridUITests" */ = {
+		84722E851F818A5800FA0E6D /* Build configuration list for PBXNativeTarget "AMDVisionCareUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84722E861F818A5800FA0E6D /* Debug */,
