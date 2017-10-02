@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		84722E581F818A5700FA0E6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84722E571F818A5700FA0E6D /* AppDelegate.swift */; };
-		84722E5A1F818A5700FA0E6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84722E591F818A5700FA0E6D /* ViewController.swift */; };
-		84722E5D1F818A5700FA0E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84722E5B1F818A5700FA0E6D /* Main.storyboard */; };
+		84722E5A1F818A5700FA0E6D /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84722E591F818A5700FA0E6D /* GridViewController.swift */; };
 		84722E601F818A5700FA0E6D /* amslerGrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84722E5E1F818A5700FA0E6D /* amslerGrid.xcdatamodeld */; };
 		84722E621F818A5700FA0E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84722E611F818A5700FA0E6D /* Assets.xcassets */; };
-		84722E651F818A5700FA0E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84722E631F818A5700FA0E6D /* LaunchScreen.storyboard */; };
 		84722E701F818A5800FA0E6D /* amslerGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84722E6F1F818A5800FA0E6D /* amslerGridTests.swift */; };
 		84722E7B1F818A5800FA0E6D /* amslerGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84722E7A1F818A5800FA0E6D /* amslerGridUITests.swift */; };
 /* End PBXBuildFile section */
@@ -37,11 +35,9 @@
 /* Begin PBXFileReference section */
 		84722E541F818A5700FA0E6D /* amslerGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amslerGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84722E571F818A5700FA0E6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84722E591F818A5700FA0E6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84722E5C1F818A5700FA0E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84722E591F818A5700FA0E6D /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		84722E5F1F818A5700FA0E6D /* amslerGrid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = amslerGrid.xcdatamodel; sourceTree = "<group>"; };
 		84722E611F818A5700FA0E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84722E641F818A5700FA0E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84722E661F818A5700FA0E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84722E6B1F818A5800FA0E6D /* amslerGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amslerGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84722E6F1F818A5800FA0E6D /* amslerGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amslerGridTests.swift; sourceTree = "<group>"; };
@@ -100,10 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				84722E571F818A5700FA0E6D /* AppDelegate.swift */,
-				84722E591F818A5700FA0E6D /* ViewController.swift */,
-				84722E5B1F818A5700FA0E6D /* Main.storyboard */,
+				84722E591F818A5700FA0E6D /* GridViewController.swift */,
 				84722E611F818A5700FA0E6D /* Assets.xcassets */,
-				84722E631F818A5700FA0E6D /* LaunchScreen.storyboard */,
 				84722E661F818A5700FA0E6D /* Info.plist */,
 				84722E5E1F818A5700FA0E6D /* amslerGrid.xcdatamodeld */,
 			);
@@ -235,9 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84722E651F818A5700FA0E6D /* LaunchScreen.storyboard in Resources */,
 				84722E621F818A5700FA0E6D /* Assets.xcassets in Resources */,
-				84722E5D1F818A5700FA0E6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84722E5A1F818A5700FA0E6D /* ViewController.swift in Sources */,
+				84722E5A1F818A5700FA0E6D /* GridViewController.swift in Sources */,
 				84722E581F818A5700FA0E6D /* AppDelegate.swift in Sources */,
 				84722E601F818A5700FA0E6D /* amslerGrid.xcdatamodeld in Sources */,
 			);
@@ -298,25 +290,6 @@
 			targetProxy = 84722E771F818A5800FA0E6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		84722E5B1F818A5700FA0E6D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84722E5C1F818A5700FA0E6D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		84722E631F818A5700FA0E6D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84722E641F818A5700FA0E6D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		84722E7D1F818A5800FA0E6D /* Debug */ = {
@@ -431,7 +404,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 737F2KT3TP;
 				INFOPLIST_FILE = amslerGrid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ilyas.amslerGrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,7 +420,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 737F2KT3TP;
 				INFOPLIST_FILE = amslerGrid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ilyas.amslerGrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
